@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+nav {
+  border-bottom: 1px solid #EAEAEB;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menu {
+    margin: 0 3px 0 0;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    margin-left: 38px;
+    padding: 38px;
+    color: #882AA5;
+}
+
+label {
+    margin: 0 30px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px)  {
+    label {
+        display: flex;
+        cursor: pointer;
+        height: 1px;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+      
+    }
+    .menu a {
+        display: block;
+       margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+} */
+header {
+  width: 100%;
+  height: 70vh;
+  background: url(https://image.freepik.com/free-photo/laptop-with-cup-coffee-view-from_426-19315254.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+ 
+
+  
+}
+
+.logo {
+  line-height: 60px;
+  
+  position: absolute;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  
+}
+
+.logo a img{
+  width: 50px;
+  
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  line-height: 60px;
+  background-color: #000;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+ 
+}
+
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  
+}
+
+.menu-icon {
+  line-height: 100%;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 786px) {
+  
+  .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 29em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1.1px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
+}
+
+
+/* 
+
+#txtBusca{
+	color:#882AA5;
+  font-size:18px;
+	padding-left:5px; 
+	font-size:18px;
+	height:32px;
+	width:200px;
+  
+	} 
+  
+  
+
+main{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main a{
+  padding: 38px;
+  text-decoration: none;
+  color: #882AA5;
+  font-size: 23px;
+}
+
+ .entrar{
+  background: #882AA5;
+  color: white;
+  align-items: center;
+}
+
+.buscar{
+  background: #FFFFFF;
+  border: 2px solid #FFDD00;
+  box-sizing: border-box;
+  width: 374px;
+  height: 39px;
+} 
+*/
+/* main img{
+  width: 94px;
+  height: 94px;
+  left: 636px;
+  top: 22px;
+}
+
+.logo{
+  width: 94px;
+height: 94px;
+}  
+nav img{
+  width: 72px;
+  height:74px;
+  top: 5px;
+  align-items: center;
+  } */
